@@ -1,19 +1,22 @@
 # Artwork credits
 
-Upstream: https://github.com/tcballard/omarchy-theme-liftoff
+Artwork: **SpaceX and Tom Ballard**.
 
-Pinned commit: dba3c7038404a7a842faad3a939dbf8006ba2c5a
+Upstream collection: https://github.com/tcballard/omarchy-theme-liftoff
 
-| Wallpaper | Upstream file |
+Pinned revision: dba3c7038404a7a842faad3a939dbf8006ba2c5a
+
+| Wallpaper | Source |
 | --- | --- |
-| Engines | backgrounds/02-engine-cluster.png |
+| Liftoff | backgrounds/01-liftoff.png |
 | Sunset | backgrounds/03-liftoff-sunset.png |
+| Engines | backgrounds/02-engine-cluster.png |
 | Ascent | backgrounds/04-starship-ascent.png |
 
-Images were supplied or enhanced by Tom Ballard. Their 8K detail includes AI reconstruction. Sunset is a painted reinterpretation of a SpaceX launch photograph.
+Tom Ballard supplied or enhanced the images. Their 8K detail includes AI reconstruction. Sunset is a painted reinterpretation of a SpaceX launch photograph. Original source notes: https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/CREDITS.md
 
-The upstream MIT license covers configuration and documentation, not a blanket license to its photographs. Its credits state that image-specific licenses for the engine and ascent photos have not been verified. The launch image’s public-domain claim is based on the upstream author’s confirmation. Read the full upstream credits before redistributing artwork:
+The maintainer received written permission to redistribute processed wallpaper images, subject to attribution in this repository. Permission correspondence is held by the maintainer. That permission is separate from the upstream theme’s MIT license and does not transfer copyright or imply endorsement.
 
-https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/CREDITS.md
+Processing: downsampling, central cropping, sRGB tagging, HEIC compression, and native Light/Dark appearance metadata.
 
-This project provides a local conversion workflow. It does not rehost or grant new rights over the images. Artwork retains its existing rights. Local changes are resizing, central cropping, color-profile tagging, and HEIC encoding.
+Software is MIT-licensed. Artwork is distributed under the separately granted permission. Not affiliated with or endorsed by Apple, SpaceX, DHH, or Omarchy.
