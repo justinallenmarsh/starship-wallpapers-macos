@@ -4,6 +4,12 @@ A small, unofficial Starship wallpaper collection, finished for a 6K Mac display
 
 Three views: **Ascent**, **Engines**, and **Sunset**. Each export is 6016 × 3384, 10-bit HEIC with an embedded sRGB profile and high-quality HEVC compression. Original 8K PNGs remain available locally. These are static wallpapers; macOS can shuffle the collection.
 
+## Preview the collection
+
+| Ascent | Engines | Sunset |
+| --- | --- | --- |
+| [View image](https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/backgrounds/04-starship-ascent.png) | [View image](https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/backgrounds/02-engine-cluster.png) | [View image](https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/backgrounds/03-liftoff-sunset.png) |
+
 ## Build
 
 Install [Homebrew](https://brew.sh), then run:
