@@ -1,42 +1,34 @@
-# Starship for Mac
+# Tesla & SpaceX Wallpapers for Mac
 
-Liftoff by day. Sunset after dark. Four finished 6K Starship wallpapers with native macOS appearance switching.
+One Mac wallpaper collection for SpaceX Starship and Tesla Roadster: four Starship stills, nine Roadster shots, and a native macOS Light/Dark Starship wallpaper. The original **Starship for Mac.app** name is retained for seamless upgrades from version 1.0.
 
 ## Install
 
-[Download Starship for Mac](https://github.com/justinallenmarsh/starship-wallpapers-macos/releases/latest), unzip, and open **Starship for Mac.app** once. It installs the finished images and applies the Automatic wallpaper to your connected displays. No Terminal, Homebrew, conversion, or background app is needed.
+Download **Tesla-SpaceX-for-Mac-1.1.0.zip** from the [latest release](https://github.com/justinallenmarsh/starship-wallpapers-macos/releases/latest), unzip, and open **Starship for Mac.app**. It copies the HEICs into `~/Pictures/Wallpapers/Starship for Mac` and applies Liftoff/Sunset Automatic on a first install. Opening it again lets you choose a Starship or Roadster wallpaper, or restore the wallpaper saved before the first install. Upgrading retains that previous-wallpaper backup and refreshes the app in `~/Applications`.
 
-**Light appearance → Liftoff. Dark appearance → Sunset.** With Appearance set to Auto, macOS handles the day/night change. Permanent Dark appearance keeps Sunset active.
+Light appearance shows Liftoff; Dark appearance shows Sunset. Set macOS Appearance to Auto to follow day and night. Roadster wallpapers are individual still images, not automatic day/night pairs. The release also offers a wallpaper-only ZIP for manual installation.
 
-Open Starship for Mac again from your home Applications folder to choose Liftoff, Sunset, Engines, or Ascent, or restore your previous wallpaper. Enable Show on all Spaces in Wallpaper settings to sync virtual desktops.
-
-Requires macOS 14 or later; Apple Silicon and Intel are supported. The community app is ad-hoc signed and not Apple-notarized, so macOS may require approval on first launch.
-
-The release also includes a wallpaper-only ZIP for manual HEIC installation and a source ZIP containing the complete installer source and packaging scripts.
+Requires macOS 14 or newer. The app is ad-hoc signed, not Apple-notarized, so macOS may ask for approval on first launch. Apple Silicon has been build-tested; Intel is cross-compiled but not tested on Intel hardware. In Wallpaper settings, enable **Show on all Spaces** if you want virtual desktops to match.
 
 ## Preview
 
-[Liftoff](https://github.com/tcballard/omarchy-theme-liftoff/blob/main/backgrounds/01-liftoff.png) · [Sunset](https://github.com/tcballard/omarchy-theme-liftoff/blob/main/backgrounds/03-liftoff-sunset.png) · [Engines](https://github.com/tcballard/omarchy-theme-liftoff/blob/main/backgrounds/02-engine-cluster.png) · [Ascent](https://github.com/tcballard/omarchy-theme-liftoff/blob/main/backgrounds/04-starship-ascent.png)
+**SpaceX / Starship:** [Liftoff](https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/backgrounds/01-liftoff.png) · [Sunset](https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/backgrounds/03-liftoff-sunset.png) · [Engines](https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/backgrounds/02-engine-cluster.png) · [Ascent](https://github.com/tcballard/omarchy-theme-liftoff/blob/dba3c7038404a7a842faad3a939dbf8006ba2c5a/backgrounds/04-starship-ascent.png)
 
-## Quality
+**Tesla / Roadster:** [Wall Ride](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/01-wall-ride-8k.png) · [Lineup](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/02-lineup-8k.png) · [Hover](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/03-hover-8k.webp) · [Ramp](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/04-ramp-8k.png) · [Inverted](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/05-inverted-8k.png) · [Rear](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/06-rear-8k.png) · [Diffuser](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/07-diffuser-8k.png) · [Studio](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/08-studio-8k.png) · [Poster](https://github.com/tcballard/omarchy-theme-roadster-8k/blob/b770729ecf305d50b1b9a9c26b46dc98096290eb/backgrounds/09-poster-8k.png)
 
-6016 × 3384 pixels, 10-bit HEIC, embedded sRGB profiles, and high-quality compression. The automatic image has two full-resolution frames with native Light/Dark metadata. Original artwork is AI-enhanced from [Tom Ballard’s Liftoff collection](https://github.com/tcballard/omarchy-theme-liftoff), not native 8K camera photography.
+## Quality and provenance
 
-Both frames, dimensions, appearance metadata, macOS Automatic mode, the Dark/Sunset preview, and installer application were verified on the maintainer’s Mac. Intel is cross-compiled and has not been tested on Intel hardware.
+Every still is 6016 × 3384, 10-bit HEIC with an embedded sRGB profile. Roadster images are scaled to fit without cropping their original composition; dark margins appear where needed. The automatic Starship image has two full-resolution frames and native Light/Dark metadata. The originals are AI-enhanced; 8K refers to upstream export dimensions, not native camera or AI generation resolution.
+
+Credits and redistribution terms are in [CREDITS.md](CREDITS.md), which is also included in the app and wallpaper-only ZIP. Artwork is not covered by the software's MIT license. Independent community project, not affiliated with or endorsed by Tesla, SpaceX, Apple, DHH, or Omarchy.
 
 ## Build from source
 
-Download and unzip **Starship-Source-1.0.0.zip** from the release. For contributors with Xcode command-line tools and Homebrew:
+On macOS with Xcode command-line tools and Homebrew:
 
 ```sh
 brew install imagemagick libheif pkg-config
 bash package.sh
 ```
 
-The repository’s original `build.sh` is also available for static exports. End users should download the finished app.
-
-## Credits and permission
-
-Artwork: **SpaceX and Tom Ballard**. Written redistribution permission was received by the maintainer, subject to attribution. See [CREDITS.md](CREDITS.md). Software is MIT-licensed; the license does not transfer ownership of artwork.
-
-Independent community project. Not affiliated with or endorsed by Apple, SpaceX, DHH, or Omarchy.
+`package.sh` downloads pinned upstream revisions, verifies each source SHA-256, converts images, makes the native automatic HEIC, compiles the universal app, checks all 14 resources, signs it ad hoc, and creates app and wallpaper-only ZIPs under `dist/`. Intermediate files default to `~/Pictures/Wallpapers/Starship`; override with `STARSHIP_OUTPUT_DIR`. The original `build.sh` exports the Starship stills alone, and `build-roadster.sh` exports the nine Roadster stills. No source photography or generated HEIC is committed to Git.

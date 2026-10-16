@@ -2,3 +2,4 @@
 *.heic
 *.png
 *.zip
+dist/

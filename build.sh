@@ -18,7 +18,7 @@ if [ ! -f "$archive" ]; then
   curl --fail --location --retry 2 --output "$archive.part" "https://github.com/tcballard/omarchy-theme-liftoff/archive/$revision.zip"
   mv "$archive.part" "$archive"
 fi
-unzip -j -o "$archive" "*/backgrounds/02-engine-cluster.png" "*/backgrounds/03-liftoff-sunset.png" "*/backgrounds/04-starship-ascent.png" -d "$sources"
+unzip -j -o "$archive" "*/backgrounds/01-liftoff.png" "*/backgrounds/02-engine-cluster.png" "*/backgrounds/03-liftoff-sunset.png" "*/backgrounds/04-starship-ascent.png" -d "$sources"
 
 while IFS=" " read -r expected source title; do
   actual=$(shasum -a 256 "$sources/$source")
@@ -38,6 +38,3 @@ while IFS=" " read -r expected source title; do
 done < "$(dirname "$0")/sources.sha256"
 
 echo "Collection ready: $collection"
-if ! open "$collection"; then
-  echo "Open this folder in Finder: $collection"
-fi
